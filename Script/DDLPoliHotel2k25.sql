@@ -1,11 +1,11 @@
 -- database: ../database/poliHotel2k25.sqlite
 
 DROP TABLE IF EXISTS Reservacion;
-DROP TABLE IF EXISTS Descuento;
-DROP TABLE IF EXISTS Usuario;
-DROP TABLE IF EXISTS CatalogoTipo;
-DROP TABLE IF EXISTS Catalogo;
 DROP TABLE IF EXISTS Habitacion;
+DROP TABLE IF EXISTS Descuento;
+DROP TABLE IF EXISTS CatalogoTipo;
+DROP TABLE IF EXISTS Usuario;
+DROP TABLE IF EXISTS Catalogo;
 
 
 CREATE TABLE CatalogoTipo (
